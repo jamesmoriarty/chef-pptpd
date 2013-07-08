@@ -1,6 +1,4 @@
-package 'pptpd' do
-  action :install
-end
+package 'pptpd'
 
 service 'pptpd' do
   supports :start => true, :restart => true
